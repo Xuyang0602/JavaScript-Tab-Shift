@@ -1,0 +1,44 @@
+.container {
+    width: 60%;
+    min-height: 50%;
+    top: 50px;
+    left: 20%;
+    position: relative;
+    /* background: red; */
+}
+
+.section {
+    width: 100%;
+}
+
+ul.tabs {
+    /* display: inline; */
+    list-style: none;
+    cursor: pointer;
+    padding-left: 0;
+    margin-bottom: 5px;
+}
+
+ul.tabs li {
+    display: inline;
+    padding: 5px;
+    cursor: pointer;
+}
+
+ul.tabs li.activeTab {
+    border: black 1px solid;
+    border-bottom: white 1px solid;
+}
+
+.content {
+    border: black 1px solid;
+    padding-left: 15px;
+}
+
+.content p {
+    display: none;
+}
+
+p.activeContent {
+    display: block;
+}
